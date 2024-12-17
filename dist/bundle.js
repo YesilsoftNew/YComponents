@@ -1,0 +1,1 @@
+(()=>{"use strict";react,react,dom})();

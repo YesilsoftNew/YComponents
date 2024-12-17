@@ -1,0 +1,30 @@
+{
+  "name": "y-react-components",
+  "version": "1.0.5",
+  "main": "dist/main.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Yasin",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.1.10",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^5.97.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
